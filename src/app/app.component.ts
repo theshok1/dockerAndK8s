@@ -8,7 +8,7 @@ import { MatTableDataSource, MatTable } from '@angular/material/table'
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent implements OnInit {
-  title = 'dockerAndK8s';
+  title = 'docker';
 
   @ViewChild('formTitle') formTitle!: ElementRef<any>
   @ViewChild('comment') comment!: ElementRef<any>
